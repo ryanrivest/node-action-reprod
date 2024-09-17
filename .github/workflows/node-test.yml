@@ -37,9 +37,6 @@ jobs:
         with:
           dotnet-version: 6.0.x
 
-      - name: Install pwsh
-        uses: cartdotcom/unified-deployments/.github/actions/setup-pwsh@main
-
       - name: Install node
         uses: actions/setup-node@v4
         with:
